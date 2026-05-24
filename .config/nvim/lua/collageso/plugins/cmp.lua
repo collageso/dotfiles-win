@@ -1,8 +1,6 @@
 return {
     "hrsh7th/nvim-cmp",
     event = "InsertEnter",
-    commit = "b356f2c",
-    pin = true,
     dependencies = {
         "hrsh7th/cmp-buffer", -- source for text in buffer
         "hrsh7th/cmp-path",   -- source for file system paths
@@ -21,11 +19,6 @@ return {
         {
             "Saecki/crates.nvim",
             event = { "BufRead Cargo.toml" },
-            opts = {
-                completion = {
-                    cmp = { enabled = true },
-                },
-            },
         },
         "saadparwaiz1/cmp_luasnip",     -- for autocompletion
         "rafamadriz/friendly-snippets", -- useful snippets

@@ -49,6 +49,7 @@ config.keys = {
 
 config.font = wezterm.font("Iosevka NFM", { weight = "Regular", style = "Normal" })
 config.font_size = 12.5
+config.window_background_opacity = 0.9
 
 config.tab_bar_at_bottom = true
 config.use_fancy_tab_bar = false
